@@ -6,11 +6,6 @@
             <div class="panel panel-default">
                 <div class="panel-heading">{{ ucfirst(config('app.name')) }} Login</div>
                 <div class="panel-body">
-                    <div class="alert alert-warning">
-                        Notice: this admin panel was generated with FREE TRIAL of QuickAdminPanel.
-                        <br />
-                        Please purchase a full version by choosing a plan at <a href="https://quickadminpanel.com" target="_blank">QuickAdminPanel.com</a>
-                    </div>
                     @if (count($errors) > 0)
                         <div class="alert alert-danger">
                             <strong>Whoops!</strong> There were problems with input:
